@@ -1,0 +1,248 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    /* overflow-x: hidden; */
+}
+ #find-icon{
+    position: absolute;
+    right: 1rem;
+    top: 20%;
+}
+
+
+@media (width<=md){
+    #nav-1{
+    display: none;
+    }
+   
+}
+@media (width<=800px){
+    #nav-2{
+    display: none;
+   }
+
+}
+@media (width>800px) {
+    #subMenu{
+        display: none
+    }
+}
+    
+
+#menu_button{
+    border-style: none;
+    
+}
+#main-content{
+    list-style: none;
+}
+li{ 
+    line-height: 4.5vh;
+}
+li:hover{
+color: cadetblue;
+font-size: 1.5rem;
+transition: 0.5s;
+}
+.pay-day-sale{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.shop h5{
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    width: 10vw;
+    line-height: 5vh;
+    border-width: 2rem;
+    margin-bottom: 2vh;
+}
+#alink:hover{
+    color: cadetblue;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    
+
+}
+#shop{
+    border: .2em solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+}
+#who-are-you{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    
+}
+.new-price{
+    position: absolute;
+    bottom: 5rem; 
+    left: 1vw;
+    padding: 0.5vh 0.5vw;
+}
+#new-arrival-caption{
+    font-size: 20px;
+    background-color: black;
+    padding: 10px 10px;
+    color: white;
+    margin-bottom: 2.5rem;
+}
+#new-arrival-caption-2{
+   font-size: 20px;
+   padding: 9px 9px;
+   border: 2px solid black;
+   color: black;
+   margin-bottom: 2.5rem;
+}
+.hr-tag{
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: black;
+}
+.custom-hr {
+    border: none;
+    height: .2rem;
+    background-color: #000;
+}
+.love-logo{
+    position: absolute;
+    top: .1rem;
+    right: .5rem;
+}
+.bold-1{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: #000;
+
+}
+.alink-1{
+    font-size: 1.2rem;
+    color: #000;
+}
+.sub-menu-wrap{
+    padding-top: .5rem;
+    margin-top: -.4rem;
+    z-index: 1;
+    position: fixed;
+    top: 3.0rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    max-height:0rem;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 40rem;
+}
+.sub-menu p{
+    margin-left: 1rem;
+    background-color: white;
+}
+.sub-menu span{
+    float: right;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+    transition: transform 0.2s;
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+.sub-menu-link:hover{
+    font-weight:bolder;
+}
+#subMen{
+    padding-top: .5rem;
+    margin-top: -.1rem;
+    z-index: 1;
+    position: fixed;
+    top: 3.0rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    max-height:0rem;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}
+#subWomen{
+    padding-top: .5rem;
+    margin-top: -.1rem;
+    z-index: 1;
+    position: fixed;
+    top: 3.0rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    max-height:0rem;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}
+#subKids{
+    padding-top: .5rem;
+    margin-top: -.1rem;
+    z-index: 1;
+    position: fixed;
+    top: 3.0rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    max-height:0rem;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}
+#subSports{
+    padding-top: .5rem;
+    margin-top: -.1rem;
+    z-index: 1;
+    position: fixed;
+    top: 3.0rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    max-height:0rem;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}
+#subbrand{
+    padding-top: .5rem;
+    margin-top:-.1rem;
+    z-index: 1;
+    position: fixed;
+    top: 3.0rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    max-height:0rem;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}
+#sublife{
+    padding-top: .5rem;
+    margin-top:-.1rem;
+    z-index: 1;
+    position: fixed;
+    top: 3.0rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    max-height:0rem;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}
+#suboutlets{
+    padding-top: .5rem;
+    margin-top:-.1rem;
+    z-index: 1;
+    position: fixed;
+    top: 3.0rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    max-height:0rem;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}
+
+
+
+
